@@ -3,9 +3,9 @@ public class Hello
 {
     public static void main(String[] args)
     {
-        Scanner kb = new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter your name:");
-        String name = kb.nextLine();
+        String name = keyboard.nextLine();
         System.out.println(name);
     }
 }
