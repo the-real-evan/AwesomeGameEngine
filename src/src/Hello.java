@@ -6,6 +6,7 @@ public class Hello
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter your name:");
         String name = keyboard.nextLine();
-        System.out.println(name);
+        System.out.println("Hello, " + name);
+        System.out.println("Edit by Evan");
     }
 }
